@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* start nav */
+.nav{
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.nav_box{
+    align-items: center;
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_img_box{
+    width: 8%;
+}
+.logo_img{
+    width: 70%;
+}
+.nav_link_box{
+    width: 50%;
+    text-align: center;
+}
+.nav_link{
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.2;
+
+}
+.nav_link:hover{
+    color: #F4B942;
+}
+/* end nav */
+
+/* start header */
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.65)),url(../img/me.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.header_box{
+    width: 80%;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+.header_box h1{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+}
+
+.header_links{
+    margin-top: 25px;
+}
+.header_links1{
+    border: 1px solid #334155;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #111827;
+    color: white;
+    padding: 14px 22px;
+    font-size: 41px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 20px;
+}
+.header_links1:hover{
+    border: 1px solid #334155;
+    background-color: #1D4ED8;
+}
+.email_icon{
+    color: #2563EB;
+    font-size: 65px;
+}
+
+.header_links2{
+    border: 1px solid #334155;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #111827;
+    color: white;
+    padding: 14px 22px;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 20px;
+}
+.header_links2:hover{
+    background-color: #1D4ED8;
+    border: 1px solid #334155;
+}
+.telegram_icon{
+    color: #2563EB;
+    font-size: 65px;
+}
+/* end heder */
+
+
+/* start info */
+.info{
+    padding: 150px 0;
+}
+.abount_me{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.abount_me_title{
+    margin-left: 200px;
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-size: 40px;
+    font-weight: 800;
+    color: #111827;
+}
+.abount_me_p{
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 480;
+    color: #4B5563;
+    line-height: 1.2;
+    width: 40%;
+}
+.abount_me_icon{
+    color:#1D4ED8;
+}
+
+.info_box{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.info_box div{
+    width: 29%;
+}
+.info_box div:last-child{
+    width: 38%;
+}
+.info h2{
+    line-height: 1.15;
+    padding-bottom: 15px;
+    font-family: "Kalam", cursive;
+    font-size: 40px;
+    font-weight: 800;
+    color: #111827;
+}
+.info >div >div >i{
+    padding-bottom: 20px;
+    margin-left: auto;
+    font-size: 63px;
+}
+.university{
+    color: #F4B942;
+}
+.coding{
+    color: #2563EB;
+}
+.apply{
+    color: #10B981;
+}
+.info p{
+    padding-bottom: 5px;
+    font-family: "Inter", sans-serif;
+    width: 90%;
+    font-size: 22px;
+    font-weight: 440;
+    color: #4B5563;
+    line-height: 1.3;
+}
+.info a{
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: #2563EB;
+}
+.info_link_icon{
+    padding-left: 5px;
+    font-size: 25px;
+}
+.info_link i{
+    transition-duration: 0.6s;
+}
+.info_link:hover i{
+    margin-left: 20px;
+}
+.info_link:hover{
+    color: #1D4ED8;
+}
+
+/* end info */
+
+/* start skils */
+.skils{
+    padding: 100px 0;
+    background-color: #D6E6F2;
+}
+.skils_box{
+    padding: 10px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.sec_top{
+    text-align: center;
+}
+.sec_top_title{
+    font-size: 75px;
+    font-weight: 700;
+    font-family: "Kalam", cursive;
+    color: #111827;
+    display: block;
+}
+.sec_top_line{
+    display: block;
+    background-color: #111827;
+    height: 4px;
+    width: 110px;
+    margin: 35px auto;
+}
+.sec_top_p{
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 460;
+    color: #4B5563;
+    line-height: 1.2;
+    width: 40%;
+}
+
+.skils_item{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.skils_item_img{
+    width: 53%;
+}
+.skils_item_img img {
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: 10px 10px 55px 20px gray;
+    transition-duration: 0.4s;
+}
+.skils_item_img img:hover {
+    transform: translateY(-8px);
+}
+.check_icon{
+    margin: 0 5px;
+    font-size: 22px;
+    color: rgb(0, 14, 211);
+}
+.skils_item_info{
+    width: 39%;
+    margin-top: 45px;
+}
+.skils_item_info p:nth-child(2),.skils_item_info span{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 460;
+    color: #4B5563;
+    line-height: 1.4;
+}
+.skils_item_info span{
+    font-weight: 700;
+}
+.skils_item_info p:nth-child(2){
+    margin-bottom: 10px;
+}
+.skils_item_title{
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Kalam", cursive;
+    color: #2563EB;
+}
+
+/* end skils */
+
+/* start contact me */
+.contact{
+    /* background: linear-gradient(135deg, #E0F2FE, #DCFCE7); */
+    background-color: #E6F0FA;
+    padding-bottom: 70px;
+}
+.contact_top{
+    height: 600px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.45)),url(../img/background.png);
+}
+.contact_top_p{
+    padding-top: 350px;
+    padding-left: 240px;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Kalam", cursive;
+    color: #2563EB;
+}
+.contact_bottem_box{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_bottem{
+    margin: 0 auto;
+    width: 40%;
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.contact_bottem_text{
+    margin-top: 50px;
+}
+.profile{
+    width: 85px;
+    height: 85px;
+}
+.so{
+    font-weight: 600;
+    font-size: 27px;
+    padding-top: 72px;
+    margin-left: 5px;
+}
+.profile_data{
+    display: flex;
+}
+.email_addres{
+    display: block;
+    margin-top: 50px;
+}
+.contact_bottem_form{
+    width: 40%;
+    margin-top: 50px;
+}
+.input{
+    /* background: linear-gradient(135deg, #E8F6FF, #F3E8FF); */
+    background-color: #E6F0FA;
+    border: none;
+    border-bottom: 1.4px solid black;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    transition-duration: 0.7s;
+}
+.input:focus{
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    border-bottom: 3px solid #2864e8;
+}
+.input_text{
+    resize: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    background-color: #E6F0FA;
+    border:none;
+    border-bottom: 1.4px solid black;
+    margin-bottom: 20px;
+    height: 170px;
+    width: 90%;
+    color: #777;
+    transition-duration: 0.7s;
+}
+.input_text:focus{
+    line-height: 1.7;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    border-bottom: 3px solid #2864e8;
+}
+.input_botton{
+    background-color: #E6F0FA;
+    border: none;
+    background-color: #2563EB;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 350px;
+    height: 50px;
+    width: 30%;
+    color: #D6E6F2;
+    font-size: 19px;
+    box-shadow: 0 0px 18px #4d5053;
+}
+.input_botton:hover{
+    border: none;
+    background-color: #1D4ED8;
+    box-shadow: 0 0px 20px #4d5053;
+}
+/* end contact me */
